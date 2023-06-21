@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const CustomButton = ({title, containerStyles, handleClick}: CustomButtonProps) => {
   return (
-    <button
+<button
     disabled={false}
     type={"button"}
     className={`custom-btn ${containerStyles}`}
