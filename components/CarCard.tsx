@@ -29,7 +29,7 @@ const CarCard = ({ car }: CarCardProps) => {
         </span>
       </p>
       <div className='relative w-full h-40 my-3 object-contain'>
-       <Image src="/hero.png" width={50} height={50}/>
+       <Image src="/hero.png" alt="car model" fill priority className='object-contain'/>
       </div>
     </div>
   )
